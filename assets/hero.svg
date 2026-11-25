@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Freelancer Contract Generator — A proper client contract in 5 minutes">
+  <rect width="1200" height="630" fill="#0f1115"/>
+  <rect x="48" y="48" width="1104" height="534" rx="24" fill="#171a21" stroke="#2a2f3a" stroke-width="2"/>
+  <rect x="96" y="120" width="72" height="72" rx="14" fill="#f59e0b"/>
+  <path d="M120 138 h24 M120 150 h24 M120 162 h16" stroke="#1a1200" stroke-width="5" stroke-linecap="round"/>
+  <path d="M132 180 l6 -14 6 14 -6 4 z" fill="#1a1200"/>
+  <text x="192" y="168" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="#e8eaf0">Freelancer Contract Generator</text>
+  <text x="96" y="292" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="600" fill="#f59e0b">A proper client contract in 5 minutes.</text>
+  <text x="96" y="352" font-family="system-ui, -apple-system, sans-serif" font-size="30" fill="#9aa3b2">No $25/month suite, no lawyer.</text>
+  <rect x="96" y="412" width="1008" height="2" fill="#2a2f3a"/>
+  <text x="96" y="472" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#e8eaf0">Service Agreement  ·  NDA  ·  Scope of Work</text>
+  <text x="96" y="522" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#9aa3b2">Free · Offline · No sign-up · Download as PDF</text>
+</svg>

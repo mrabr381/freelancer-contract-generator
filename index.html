@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freelancer Contract Generator — a proper client contract in 5 minutes</title>
+<meta name="description" content="A proper client contract in 5 minutes — no $25/month suite, no lawyer. Free Service Agreement, NDA and Scope of Work templates you fill in and download as PDF.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Freelancer <span>Contract Generator</span></h1>
+  <p class="pitch">A proper client contract in 5 minutes — no $25/month suite, no lawyer.</p>
+</header>
+
+<div class="disclaimer">
+  <p><strong>Not legal advice.</strong> These are general templates, not a lawyer. They work for straightforward freelance jobs; for high-value, unusual or regulated work, get a local lawyer to review the contract before you sign it.</p>
+</div>
+
+<main>
+  <section class="panel form-panel" aria-label="Contract details">
+    <h2>1 · Pick a template</h2>
+    <div class="template-picker" id="template-picker" role="group" aria-label="Contract templates"></div>
+
+    <h2>2 · Fill in the blanks</h2>
+    <form id="contract-form" autocomplete="off"></form>
+
+    <div class="actions">
+      <button class="btn btn-primary" id="btn-print" type="button">Download PDF</button>
+      <button class="btn btn-ghost" id="btn-copy" type="button">Copy text</button>
+      <button class="btn btn-ghost" id="btn-clear" type="button">Clear</button>
+    </div>
+    <div class="validation-error" id="validation-error" role="alert"></div>
+    <p style="font-size:13px;color:var(--muted);margin:14px 0 0">
+      Download PDF uses your browser's print dialog — choose “Save as PDF”. Everything runs in your browser; nothing you type is sent anywhere.
+    </p>
+  </section>
+
+  <section class="preview-wrap" aria-label="Live contract preview">
+    <div class="preview-toolbar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+      <h2 style="margin:0;font-size:16px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)">3 · Live preview</h2>
+      <span style="font-size:13px;color:var(--muted)" id="preview-template-name"></span>
+    </div>
+    <div class="preview" id="preview"></div>
+  </section>
+</main>
+
+<footer>
+  <p class="footer-support">
+    <a href="https://github.com/mrabr381/freelancer-contract-generator" target="_blank" rel="noopener">⭐ Star on GitHub</a>
+    <a href="https://www.buymeacoffee.com/muhammadabubakar" target="_blank" rel="noopener"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="40"></a>
+  </p>
+  <p>Free, offline, no sign-up. Templates are general-purpose and not legal advice.</p>
+  <p>Compare: Bonsai Essentials is $25/month ($19/month billed yearly); its Basic plan ($15) has no contracts or invoices. This tool does contracts only — and costs nothing.</p>
+</footer>
+
+<script src="contract.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
